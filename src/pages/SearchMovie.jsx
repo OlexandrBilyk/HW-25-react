@@ -32,7 +32,7 @@ export default function SearchMovie() {
     getCurrent(query);
   }, [searchParams]);
   return (
-    <>
+    <section>
       {searched ? (
         <ul>
           {searched.map((el, i) => (
@@ -61,6 +61,6 @@ export default function SearchMovie() {
           </button>
         </div>
       )}
-    </>
+    </section>
   );
 }
