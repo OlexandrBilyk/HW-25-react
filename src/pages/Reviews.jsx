@@ -9,7 +9,7 @@ export default function Reviews() {
   const getCurrent = async function () {
     try {
       const response = await axios.get(
-        `https://api.themoviedb.org/3/${mediaType}/${id}/reviews?api_key=5bc2d8b1a6e814e03b1c29b7fa3a3756`
+        `https://api.themoviedb.org/3/${mediaType}/${id}/reviews?api_key=5f5a435da6cfebeb42c328b26da6dfd9`
       );
 
       const data = await response.data;
